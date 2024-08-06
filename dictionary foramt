@@ -1,0 +1,9 @@
+- hosts: all
+  tasks:
+  - copy:                                1st task
+      src: /etc/group
+      dest: /tmp/
+
+  - user:                                2nd task
+      name: ashish
+~                  
